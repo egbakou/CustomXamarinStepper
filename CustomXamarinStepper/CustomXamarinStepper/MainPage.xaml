@@ -6,14 +6,14 @@
     xmlns:controls="clr-namespace:CustomXamarinStepper.Controls"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="Stepper with Entry"
+    Title="{Binding Title}"
     mc:Ignorable="d">
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <controls:StepperWithEntry
             HorizontalOptions="Center"
-            MaximumValue="10"
-            Text="4"
+            MaximumValue="{Binding MaximumValue}"
+            Text="{Binding Quantity}"
             VerticalOptions="Center" />
     </StackLayout>
 

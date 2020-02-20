@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CustomXamarinStepper.ViewModels;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace CustomXamarinStepper
@@ -13,9 +9,11 @@ namespace CustomXamarinStepper
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        private MainPageViewModel viewModel;
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = viewModel = new MainPageViewModel();
         }
     }
 }
