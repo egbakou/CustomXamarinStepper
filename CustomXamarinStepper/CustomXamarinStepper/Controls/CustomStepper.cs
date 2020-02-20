@@ -72,8 +72,8 @@ namespace CustomXamarinStepper.Controls
                 Keyboard = Keyboard.Numeric,
                 HorizontalTextAlignment = TextAlignment.Center,
                 TextColor = Color.Green,
-                WidthRequest = 50,
-                BackgroundColor = Color.FromHex("#3FFF")
+                WidthRequest = 60,
+                BackgroundColor = Color.Transparent
             };
             Entry.SetBinding(Entry.TextProperty, new Binding(nameof(Text), BindingMode.TwoWay, source: this));
             Entry.TextChanged += Entry_TextChanged;
