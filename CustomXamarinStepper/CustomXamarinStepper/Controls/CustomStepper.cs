@@ -83,6 +83,7 @@ namespace CustomXamarinStepper.Controls
             Children.Add(PlusBtn);
         }
 
+        // Avoid decimal values
         private void Entry_Unfocused(object sender, FocusEventArgs e)
         {
            var text =  ((Entry)sender).Text;
@@ -90,6 +91,8 @@ namespace CustomXamarinStepper.Controls
                 this.Text = 0;
         }
 
+
+        // Check if Minimum and Maximum value rules are respected.
         private void Entry_TextChanged(object sender, TextChangedEventArgs e)
         {
             if (!string.IsNullOrEmpty(e.NewTextValue))
@@ -109,6 +112,7 @@ namespace CustomXamarinStepper.Controls
             }
                 
         }
+
 
         private void MinusBtn_Clicked(object sender, EventArgs e)
         {
