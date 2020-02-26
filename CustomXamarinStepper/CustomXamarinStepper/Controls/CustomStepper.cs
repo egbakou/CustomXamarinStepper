@@ -15,7 +15,7 @@ namespace CustomXamarinStepper.Controls
              propertyName: "Text",
               returnType: typeof(int),
               declaringType: typeof(StepperWithEntry),
-              defaultValue: 1,
+              defaultValue: 0,
               defaultBindingMode: BindingMode.TwoWay);
 
         public static readonly BindableProperty MinimumValueProperty =
