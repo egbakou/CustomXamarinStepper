@@ -4,7 +4,7 @@
 
 ## Blog Post
 
-I have written a [blog post on the implementation](https://lioncoding.com) over at [my blog](https://lioncoding.com).
+I have written a [blog post on the implementation](https://lioncoding.com/2020/02/26/2020-02-26-controle-personnalise-en-xamarin-forms-un-stepper-disposant-d-un-entry/) over at [my blog](https://lioncoding.com).
 
 # Contributions
 
